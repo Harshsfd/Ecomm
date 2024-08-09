@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="istockphoto-609881060-640_adpp_is.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="content">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="Pizza.jpg" alt="Delicious Pizza" id="mainImage">
+            </div>
+            <div class="product-details">
+                <h1>Delicious Pizza</h1>
+                <p>This mouth-watering pizza is topped with a blend of mozzarella cheese, fresh tomatoes, and basil. It's baked to perfection with a crispy crust and a rich tomato sauce.</p>
+                <p class="price">₹119</p>
+                <button id="buyNowBtn">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h2>Product Information</h2>
+            <ul>
+                <li>Size: 12 inches</li>
+                <li>Ingredients: Mozzarella cheese, tomatoes, basil, tomato sauce, pizza dough</li>
+                <li>Allergens: Contains dairy and gluten</li>
+            </ul>
+        </div>
+
+        <div class="nutrition-facts">
+            <h2>Nutritional Facts</h2>
+            <table>
+                <tr>
+                    <th>Nutrient</th>
+                    <th>Amount per Serving</th>
+                </tr>
+                <tr>
+                    <td>Calories</td>
+                    <td>285</td>
+                </tr>
+                <tr>
+                    <td>Fat</td>
+                    <td>10g</td>
+                </tr>
+                <tr>
+                    <td>Carbohydrates</td>
+                    <td>36g</td>
+                </tr>
+                <tr>
+                    <td>Protein</td>
+                    <td>12g</td>
+                </tr>
+                <tr>
+                    <td>Sodium</td>
+                    <td>640mg</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><strong>Rohan:</strong> "Absolutely delicious! The best pizza I've ever had."</p>
+                <p>Rating: ★★★★★</p>
+            </div>
+            <div class="review">
+                <p><strong>Harsh:</strong> "Great flavor and perfect crust. Will definitely order again."</p>
+                <p>Rating: ★★★★☆</p>
+            </div>
+            <div class="review">
+                <p><strong>Mohit:</strong> "Good pizza but a bit too salty for my taste."</p>
+                <p>Rating: ★★★☆☆</p>
+            </div>
+        </div>
+
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: ₹<span id="totalPrice">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
